@@ -23,7 +23,7 @@ function Test() {
     }
   }
 
-  console.log(activeId.slice(1));
+  // console.log(activeId.slice(1));
 
   return (
     <div>
