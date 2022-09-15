@@ -12,6 +12,7 @@ function Test() {
 
     const id = e.currentTarget.getAttribute('data-id');
     const obj = data.find(item => item.id === id);
+    console.log(obj);
 
     if (obj !== undefined) {
       const normalizedString = obj.answers.toString();
