@@ -12,7 +12,6 @@ function Test() {
 
     const id = e.currentTarget.getAttribute('data-id');
     const obj = data.find(item => item.id === id);
-    console.log(obj.answers);
 
     if (obj !== undefined) {
       const normalizedString = obj.answers.toString();
@@ -22,8 +21,6 @@ function Test() {
       setActiveId(upperString);
     }
   }
-
-  // console.log(activeId.slice(1));
 
   return (
     <div>

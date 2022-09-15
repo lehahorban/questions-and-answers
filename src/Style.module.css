@@ -21,6 +21,7 @@ button {
 .app {
   width: 700px;
   margin: auto;
+  margin-top: 10px;
   border: 1px solid #070f4b;
   background-color: aliceblue;
   -webkit-box-shadow: 5px 5px 15px 5px #000000;

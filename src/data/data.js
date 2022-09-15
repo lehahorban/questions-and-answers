@@ -100,164 +100,170 @@ export const data = [
     questions: '22. Для чего используется массива includes?',
     answers: 'для проверки входит ли вообще элемент в массив',
   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
-  //   {
-  //     questions: '1. Какой typeof null?',
-  //     answers: 'object',
-  //   },
+  {
+    questions: '23. Что возвращает метод массива includes?',
+    answers: 'true, если элемент найден в массиве, и false, если нет',
+  },
+  {
+    questions: '24. Для чего используется splice?',
+    answers: 'для вырезания и замены элементов в исходном массиве',
+  },
+  {
+    questions: '25. Какие аргументы принимает splice?',
+    answers:
+      '1 аргумент - индекс массива, из которого начинается вырезание, второй - количество вырезанных элементов, 3 и все последующие - элементы для замены',
+  },
+  {
+    questions: '26. Что возвращает splice?',
+    answers: 'Массив вырезанных элементов',
+  },
+  {
+    questions: '27. Для чего используется slice?',
+    answers: 'для копирования части массива',
+  },
+  {
+    questions: '28. Какие аргументы принимает slice?',
+    answers:
+      '1 аргумент - индекс, с которого начинается копирование массива, 2 - индекс, на котором копирования заканчивается (но он в список не входит)',
+  },
+  {
+    questions: '29. Какой цикл for позволяет перебрать элементы массива?',
+    answers: 'обычный for и for … of',
+  },
+  {
+    questions: '30. Что мы передаем в метод map в качестве аргумента?',
+    answers:
+      'callback-функцию, первый аргумент которой - перебираемый элемент массива, второй - индекс перебираемого элемента в массиве, третий - ссылка на перебираемый массив',
+  },
+  {
+    questions: '31. Что возвращает метод .forEarch?',
+    answers: 'undefined',
+  },
+  {
+    questions: '32. Что возвращает метод find?',
+    answers:
+      'первый найденный элемент в массиве или undefined, если элемент не найден',
+  },
+  {
+    questions: '32. Что возвращает метод findIndex?',
+    answers:
+      'индекс первого найденного элемента в массиве или -1, если элемент не найден',
+  },
+  {
+    questions: '33. Что передается колбеку, который мы передаем в reduce?',
+    answers:
+      'аккумулятор, перебираемый элемент массива, индекс перебираемого элемента массива и ссылка на перебираемый массив',
+  },
+  {
+    questions: '34. Для чего используются JS-классы?',
+    answers: 'для создания объектов по шаблону',
+  },
+  {
+    questions: '35. Где хранятся методы объекта, созданного с помощью класса?',
+    answers: 'в прототипах класса',
+  },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
+  // {
+  //   questions: '1. Какой typeof null?',
+  //   answers: 'object',
+  // },
 ];
